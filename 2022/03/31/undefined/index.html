@@ -18,14 +18,14 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" integrity="sha256-jTIdiMuX/e3DGJUGwl3pKSxuc6YOuqtJYkM0bGQESA4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"github.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.10.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"github.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.10.1","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="default 提示块标签  primary 提示块标签  success 提示块标签">
+    <meta name="description" content="default 提示块标签   primary 提示块标签   success 提示块标签">
 <meta property="og:type" content="article">
 <meta property="og:title" content="text1">
 <meta property="og:url" content="https://github.com/teawlili/teawlili.github.io.git/2022/03/31/undefined/index.html">
 <meta property="og:site_name" content="master your life">
-<meta property="og:description" content="default 提示块标签  primary 提示块标签  success 提示块标签">
+<meta property="og:description" content="default 提示块标签   primary 提示块标签   success 提示块标签">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.imgur.com/0fmKhRP.png?1">
 <meta property="article:published_time" content="2022-03-31T02:00:49.000Z">
@@ -64,6 +64,9 @@
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -85,6 +88,10 @@
 
 
 
+<nav class="site-nav">
+  <ul class="main-menu menu">
+  </ul>
+</nav>
 
 
 
@@ -119,6 +126,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="TEAW LI LI"
+      src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">TEAW LI LI</p>
   <div class="site-description" itemprop="description">人生如戏</div>
 </div>
@@ -142,11 +151,29 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://www.facebook.com/yourname" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://youtube.com/yourname" title="YouTube → https:&#x2F;&#x2F;youtube.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>YouTube</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/yourname" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh_CN" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
 
 
 
         </div>
       </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -155,10 +182,6 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
 
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
@@ -179,7 +202,7 @@
     <link itemprop="mainEntityOfPage" href="https://github.com/teawlili/teawlili.github.io.git/2022/03/31/undefined/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="TEAW LI LI">
     </span>
 
@@ -225,6 +248,20 @@
     </span>
 
   
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2022/03/31/undefined/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/03/31/undefined/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
     <span class="post-meta-break"></span>
     <span class="post-meta-item" title="本文字数">
       <span class="post-meta-item-icon">
@@ -252,64 +289,157 @@
     <div class="post-body" itemprop="articleBody">
         <div class="note default"><p>default 提示块标签</p>
 </div>
+
 <div class="note primary"><p>primary 提示块标签</p>
 </div>
+
 <div class="note success"><p>success 提示块标签</p>
 </div>
+
 <span id="more"></span>
+
 <div class="note info"><p>info 提示块标签</p>
 </div>
+
 <div class="note warning"><p>warning 提示块标签</p>
 </div>
+
 <div class="note danger"><p>danger 提示块标签</p>
 </div>
+
+
 <div class="tabs" id="mytab"><ul class="nav-tabs"><li class="tab"><a href="#mytab-1">mytab 1</a></li><li class="tab active"><a href="#mytab-2">mytab 2</a></li><li class="tab"><a href="#mytab-3">這是頁籤三</a></li><li class="tab"><a href="#mytab-4">mytab 4</a></li><li class="tab"><a href="#mytab-5"><i class="fa fa-user"></i>個人資料</a></li></ul><div class="tab-content"><div class="tab-pane" id="mytab-1"><h3 id="頁籤一"><a href="#頁籤一" class="headerlink" title="頁籤一"></a>頁籤一</h3><p>因沒有特別命名，所以此頁籤會用 <code>mytab</code> 加上流水號。</p></div><div class="tab-pane active" id="mytab-2"><h3 id="頁籤二"><a href="#頁籤二" class="headerlink" title="頁籤二"></a>頁籤二</h3><p>開無痕進來會先看到我。</p></div><div class="tab-pane" id="mytab-3"><h3 id="頁籤三"><a href="#頁籤三" class="headerlink" title="頁籤三"></a>頁籤三</h3><p>這裡有命名，會看到頁籤名不一樣。</p></div><div class="tab-pane" id="mytab-4"><h3 id="頁籤四"><a href="#頁籤四" class="headerlink" title="頁籤四"></a>頁籤四</h3><p>可以看到這裡的流水號是從 4 開始，應該是抓 array index 作為流水號。</p></div><div class="tab-pane" id="mytab-5"><h3 id="頁籤五"><a href="#頁籤五" class="headerlink" title="頁籤五"></a>頁籤五</h3><p>這裡有加 icon，有什麼 icon 可以來<a target="_blank" rel="noopener" href="https://fontawesome.com/icons">這裡</a>找。</p></div></div></div>
+
+
 <p><font color=#FF00FF>粉紅色</font></p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>預設對齊</th>
-<th style="text-align: left;">靠左對齊</th>
-<th style="text-align: right;">靠右對齊</th>
-<th style="text-align: center;">置中對齊</th>
+<th align="left">靠左對齊</th>
+<th align="right">靠右對齊</th>
+<th align="center">置中對齊</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
+<tbody><tr>
 <td>Text1</td>
-<td style="text-align: left;">Text2</td>
-<td style="text-align: right;">Text3</td>
-<td style="text-align: center;">Text4</td>
+<td align="left">Text2</td>
+<td align="right">Text3</td>
+<td align="center">Text4</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Text5</td>
-<td style="text-align: left;">Text6</td>
-<td style="text-align: right;">Text7</td>
-<td style="text-align: center;">Text8</td>
+<td align="left">Text6</td>
+<td align="right">Text7</td>
+<td align="center">Text8</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Text9</td>
-<td style="text-align: left;">Text10</td>
-<td style="text-align: right;">Text11</td>
-<td style="text-align: center;">Text12</td>
+<td align="left">Text10</td>
+<td align="right">Text11</td>
+<td align="center">Text12</td>
 </tr>
-</tbody>
-</table>
-<p><img src="https://i.imgur.com/0fmKhRP.png?1" width="100" height="100"></p>
-
+</tbody></table>
+<img src="https://i.imgur.com/0fmKhRP.png?1" width="100" height="100"> 
 
     </div>
 
     
     
     
+      
 
-    <footer class="post-footer">
+
+    <footer class="post-footer"><div>
+    
+</div>
+
+          <div class="reward-container">
+  <div>原创技术分享，您的支持将鼓励我继续创作</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/alipay.png">
+        <span>支付宝</span>
+      </div>
+      <div>
+        <img src="/images/paypal.png">
+        <span>PayPal</span>
+      </div>
+      <div>
+        <img src="/images/Touch%20'n%20Go.png">
+        <span>Touch_n_Go</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>lili
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://github.com/teawlili/teawlili.github.io.git/2022/03/31/undefined/" title="text1">https://github.com/teawlili/teawlili.github.io.git/2022/03/31/undefined/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh_CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="https://t.me/channel_name">
+          <span class="icon">
+            <i class="fab fa-telegram"></i>
+          </span>
+
+          <span class="label">Telegram</span>
+        </a>
+      </div>
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
+
+          <span class="label">WeChat</span>
+        </a>
+      </div>
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/images/whatsapp_liliteaw.png">
+          <span class="icon">
+            <i class="fab fa-whatsapp"></i>
+          </span>
+
+          <span class="label">whatsapp</span>
+        </a>
+      </div>
+  </div>
+</div>
+
           <div class="post-tags">
-              <a href="/tags/test/" rel="tag"># test</a>
+              <a href="/tags/test/" rel="tag"><i class="fa fa-tag"></i> test</a>
           </div>
 
         
+  <div class="post-widgets">
+    <div class="wpac-rating-container">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
 
           <div class="post-nav">
             <div class="post-nav-item">
@@ -332,6 +462,11 @@
 
 
 
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
 </div>
   </main>
 
@@ -363,6 +498,9 @@
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
+  <div class="addthis_inline_share_toolbox">
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=624655b738792b7a" async="async"></script>
+  </div>
 
     </div>
   </footer>
@@ -372,6 +510,9 @@
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
 
   
+  <script src="https://embed.widgetpack.com/widget.js" async></script>
+  <script class="next-config" data-name="rating" type="application/json">{"enable":true,"id":34386,"color":"#fc6423"}</script>
+  <script src="/js/third-party/rating.js"></script>
 
 
 
@@ -382,6 +523,8 @@
 
 
 
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"masteryourlife-1","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
 
 </body>
 </html>
