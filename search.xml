@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>first post</title>
+    <url>/2022/03/30/undefined/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>text1</title>
     <url>/2022/03/31/undefined/</url>
     <content><![CDATA[<div class="note default"><p>default 提示块标签</p>
@@ -58,8 +70,8 @@
       </tags>
   </entry>
   <entry>
-    <title>first post</title>
-    <url>/2022/03/30/undefined/</url>
+    <title>text2</title>
+    <url>/2022/04/01/undefined/</url>
     <content><![CDATA[
 ]]></content>
       <categories>
@@ -74,17 +86,5 @@
     <url>/2022/04/04/%E7%AC%AC%E4%B8%80%E5%B8%96%E6%96%87/</url>
     <content><![CDATA[
 ]]></content>
-  </entry>
-  <entry>
-    <title>text2</title>
-    <url>/2022/04/01/undefined/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
   </entry>
 </search>
